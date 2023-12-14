@@ -1,0 +1,211 @@
+@charset "UTF-8";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.7;
+  color: #354257;
+  font-family: 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+input[type=text],
+input[type=tel],
+input[type=number],
+input[type=mail],
+input[type=password],
+input[type=date],
+select,
+textarea {
+  border: 1px solid #d5d5d5;
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: block;
+  width: 100%;
+  background: #fafafa;
+  font-size: 16px;
+}
+
+input[type=date] {
+  min-height: 2.5em;
+}
+
+input.required {
+  border: 1px dashed #ff0000;
+}
+
+input.bg-blue {
+  border: none;
+  background: #f7fbff;
+}
+
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  cursor: not-allowed;
+  background-color: #eee;
+  opacity: 1;
+}
+
+.wrap-radio {
+  margin-right: 20px;
+  line-height: 1;
+}
+.wrap-radio input[type=radio] {
+  margin-right: 5px;
+  margin-top: 0px;
+}
+
+::-webkit-input-placeholder {
+  color: #c3c3c3;
+}
+
+::-moz-placeholder {
+  color: #c3c3c3;
+}
+
+:-ms-input-placeholder {
+  color: #c3c3c3;
+}
+
+::-ms-input-placeholder {
+  color: #c3c3c3;
+}
+
+::placeholder {
+  color: #c3c3c3;
+}
+
+::-ms-input-placeholder {
+  color: #c3c3c3;
+}
+
+:-ms-input-placeholder {
+  color: #c3c3c3;
+}
+
+textarea.ht3 {
+  height: 6em;
+}
+
+textarea.ht6 {
+  height: 12em;
+}
+
+select {
+  height: 2.5em;
+}
+
+.toggle-el {
+  display: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+body {
+  font-family: 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  color: #354257;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  color: #354257;
+}
+a.blue {
+  color: #3376bc;
+}
+a.underline {
+  text-decoration: underline;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.pc {
+  display: none;
+}
+
+.important {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.8;
+  color: #354257;
+  font-size: 14px;
+  text-align: justify;
+  letter-spacing: 0;
+}
+
+p.center {
+  text-align: center;
+}
+
+p.sm {
+  font-size: 13px;
+}
+
+.modaal-gallery-label {
+  display: block !important;
+}
+
+/**********************************************************************
+
+ * Media Query For PC
+
+ ***********************************************************************/
+@media print, screen and (min-width: 767px) {
+  body {
+    letter-spacing: 0.03em;
+  }
+
+  .sp {
+    display: none;
+  }
+
+  .pc {
+    display: block;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  input[type=date] {
+    width: 200px;
+  }
+
+  a.blue:hover {
+    text-decoration: underline;
+  }
+}

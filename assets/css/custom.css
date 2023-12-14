@@ -1,0 +1,41 @@
+.logo {
+  height: 80px;
+  color: white;
+}
+
+.logo h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+input[type=checkbox] {
+  /* margin: 4px 0 0; */
+  margin-top: 1px\9;
+  line-height: normal;
+}
+
+li .counter {
+  position: absolute;
+  right: -160px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background: #ff9c27;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  width: 3em;
+  height: 20px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 1400px) {
+  li .counter {
+    right: -200px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+}

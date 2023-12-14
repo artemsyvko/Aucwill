@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 61 61">
+  <g id="icon-done" transform="translate(-345 -206)">
+    <g id="楕円形_1" data-name="楕円形 1" transform="translate(345 206)" fill="none" stroke="#5fcb8c" stroke-width="2">
+      <circle cx="30.5" cy="30.5" r="30.5" stroke="none"/>
+      <circle cx="30.5" cy="30.5" r="29.5" fill="none"/>
+    </g>
+    <g id="done_black_24dp" transform="translate(359 219)">
+      <path id="パス_73" data-name="パス 73" d="M0,0H35V35H0Z" fill="none"/>
+      <path id="パス_74" data-name="パス 74" d="M11.567,21.058,5.442,14.933,3.4,16.975l8.167,8.167,17.5-17.5L27.025,5.6Z" transform="translate(1.558 2.567)" fill="#5fcb8c"/>
+    </g>
+  </g>
+</svg>

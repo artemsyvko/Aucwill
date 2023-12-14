@@ -1,0 +1,13 @@
+application/logs/*.php
+uploads/csv/*.csv
+uploads/photo/*.jpg
+uploads/photo/*.jpeg
+uploads/photo/*.png
+uploads/photo/original/*.jpg
+uploads/photo/original/*.jpeg
+uploads/photo/original/*.png
+uploads/qrcode/*.jpg
+uploads/qrcode/*.jpeg
+uploads/qrcode/*.png
+vendor
+aucwill-temp-invoice.csv

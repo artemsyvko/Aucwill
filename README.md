@@ -1,0 +1,4 @@
+- To resize image, enable `gd` extension in `php.ini`
+- To create PDF on backend side: [Reference](https://elevenstechwebtutorials.com/detail/40/generate-pdf-using-mpdf-in-codeigniter)
+    - focus on the php version.
+    - Install **mpdf** library: `composer require mpdf/mpdf`
